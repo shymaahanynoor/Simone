@@ -1,0 +1,684 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #4c4d4d;
+    padding: 0;
+    margin: 0;
+    margin-top:-107px;
+}
+*::selection{
+    background-color: #20c997;
+    color: #fff;
+}
+*{
+    box-sizing: border-box;
+
+}
+.home{
+  height: 100vh;
+    background-image: url(../image/intro-bg.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+opacity: .8;
+
+}
+
+
+
+ .nav ul li a{
+    text-decoration: none;
+    color: #fff;
+   font-weight: 500;
+   font-size: 20px;
+}
+.nav ul li a span{
+    color: #20c997;
+}
+.nav ul li:hover a{
+    color: #20c997; 
+}
+.home .home-item{
+    height: 100vh;
+text-align: center;
+display: flex;
+
+justify-content: center;
+align-items: center;
+color: #fff;
+}
+
+.home .home-item div h3{
+ font-size:2rem;
+}
+.home .home-item div p{
+    font-size: 1.5rem;
+    margin-top: 35%;
+}
+.home{
+  position: relative;
+}
+.home .home-item div h1::after{
+  font-size: 3rem;
+  content: "I'm a Design|";
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  animation: delete 3s infinite;
+
+}
+
+@keyframes delete{
+  0%{
+    content: "I'm a Desig|";
+  }
+  5%{
+    content: "I'm a Desi|";
+  }
+  10%{
+    content: "I'm a Des|";
+  }
+  15%{
+    content: "I'm a De|";
+  }
+  20%{
+    content: "I'm a D|";
+  }
+  25%{
+    content: "I'm a |";
+  }
+  30%{
+    content: "I'm|";
+  }
+  35%{
+    content: "I'|";
+  }
+
+  40%{
+    content: "I|";
+  }
+
+  
+  45%{
+    content: "|";
+  }
+
+  
+  50%{
+    content: "I'|";
+  }
+
+  
+  
+  55%{
+    content: "I'm|";
+  }
+
+  
+  60%{
+    content: "I'm D|";
+  }
+
+  65%{
+    content: "I'm De|";
+  }
+
+  70%{
+    content: "I'm Dev|";
+  }
+
+  75%{
+    content: "I'm Devo|";
+  }
+
+  80%{
+    content: "I'm Devol|";
+  }
+
+  85%{
+    content: "I'm Devolo|";
+  }
+
+  90%{
+    content: "I'm Devolop|";
+  }
+
+  95%{
+    content: "I'm Devolope|";
+  }
+
+  100%{
+    content: "I'm Devoloper|";
+  }
+
+}
+.home .home-item div button{
+    margin-top: 20px ;
+   
+   padding: 15px 0px;
+    width: 140px;
+    border-radius: 70px;
+    background-color: transparent;
+    border: 2px solid #20c997;
+    color: #20c997;
+    font-size: 18px;
+    transition: all 1s;
+}
+.home .home-item div button:hover{
+ background-color: #20c997;
+ color: #fff;
+}
+.home .home-item div{
+    overflow: hidden;
+}
+
+ .icon, .icon-2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+position:sticky;
+top: 40%;
+left: 120%;
+color: #fff;
+font-size: 1.2rem;
+margin: auto;
+width: 3%;
+height: 7%;
+text-align: center;
+background-color: #555;
+border-radius: 4px;
+z-index: 555555;
+  }
+   .icon-2{
+position: sticky;
+top: 90%;
+left: 95%;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0.2);
+}
+.home .icon-2:hover{
+    background-color: #20c997;
+}
+.home .home-item  .icon-1{
+
+  position: absolute;
+    font-size: 1.2rem;
+  left:  50%;
+  transform: translate(-50%);
+    animation: vector 1.5s infinite;
+}
+
+
+@keyframes vector{
+    0%{
+   top:85%;
+    opacity: 1;
+    }
+    100%{
+    top:95%;
+       opacity: 0;
+    }
+}
+.about, .whatIDo, .Resume, .PORTFOLIO, .clint, .contact{
+    color: #252b33;
+ text-align: center;
+ margin: 100px 0px;
+ position: relative;
+}
+.about h2, .whatIDo h2, .Resume h2, .PORTFOLIO h2, .clint h2, .contact h2{
+    font-size: 2.2rem;
+
+}
+
+.about .header::before,  .whatIDo .header::before, .Resume .header::before,
+ .PORTFOLIO .header::before, .clint .header::before, .contact .header::before{
+ content:"ABOUT ME";
+ 
+ color: #f2f4f4;
+ font-size:8rem;
+
+ position: absolute;
+ top:-10%;
+ left: 50%;
+ transform: translate(-50%);
+ z-index: -1;
+ text-align: center;
+} 
+.clint .header::before{
+    content: "TESTMONIAL";
+}
+.about .about-item, .about .about-score, .PORTFOLIO-item{
+  margin: auto;
+    width: 85%;
+    display: flex;
+ justify-content:space-between;
+
+ margin-top: 50px;
+}
+.about .about-item-1{
+  
+ width: 65%;
+ text-align: left;
+}
+.about .about-item-1 h3{
+  
+    font-size: 2rem;
+}
+.about .about-item-1 h3 span{
+    color: #20c997;
+}
+.about .about-item-1 p{
+    font-size: 1.1rem;
+
+}
+
+.about .about-item-2{
+    width: 30%;
+   margin-top:2%;
+    text-align: left;
+   }
+   .about .about-item-2 p{
+    font-size: 17px;
+    font-weight: 600;
+
+   }
+   .about .about-item-2 span{
+   font-size: 16px;
+    font-weight: 500;
+    padding-left: 5px;
+
+   }
+   .about .about-item-2 span.email{
+    color: #20c997;
+   }
+   .about .about-item-2 button, .skill button{
+
+    margin-top: 20px ;
+   
+    padding: 15px 0px;
+     width: 190px;
+     border-radius: 95px;
+     background-color:#20c997;
+   border: none;
+     color:#fff;
+     font-size: 18px;
+     transition: all 1s;
+     box-shadow:0px 0px 10px#888888;
+   }
+   .about .about-item-2 button:hover{
+  background-color:rgba(7, 146, 104, 0.668)
+   }
+   .about .about-score{
+    width: 80%;
+    position: relative;
+
+   }
+   .about .about-score h2{
+   font-size: 3rem;
+   color: #6c757d;
+   }
+   .about .about-score .about-score-1::after{
+   content: ""; 
+   position: absolute;
+   top: 0;
+   right: 80%;
+   width: 2px;
+   height:100%;
+   opacity: .3;
+  background-color: #ccc;
+
+   }
+   
+   .about .about-score .about-score-2::after{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 2px;
+    opacity: .3;
+    height: 100%;
+   background-color: #ccc;
+ 
+    }
+    
+   .about .about-score .about-score-3::after{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 20%;
+    width: 2px;
+    height: 100%;
+    opacity: .3;
+   background-color: #ccc;
+ 
+    }
+
+    .whatIDo, .PORTFOLIO, .contact{
+    padding-top: 100px;
+      background-color:  #f8f9fa;
+      
+    }
+    .whatIDo h2 ,  .PORTFOLIO h2, .contact h2{
+        position:relative;
+        z-index: 555;
+    }
+    .whatIDo .header::before, .PORTFOLIO .header::before, .contact .header::before{
+        content: "SERVICE";
+   top:-120%;
+     background-color:rgba(248, 249, 250,.3);
+    z-index: -5;
+    }
+    .PORTFOLIO .header::before{
+        content: "PORTFOLIO";
+    }
+
+    .contact .header::before{
+        content: "CONTACT";
+    }
+    .whatIDo-item, .Resume .Resume-item{
+        width: 80%;
+        margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-bottom: 50px;
+    }
+    .whatIDo-item-1{
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+     
+    }
+    .whatIDo-item-1 .icon{
+        font-size: 2rem;
+        width: 60%;
+        height: 40%;
+        border-radius: 3px;
+        box-shadow: 0px 0px 5px #ccc;
+        background-color: #fff;
+       color: #20c997;
+       top:0px;
+       left: 0px;
+
+    }
+    
+    .whatIDo-item-1 .content{
+       
+order:2
+    }
+    .Resume .header::before{
+        content: "RESUME";
+        top:-7%
+    }
+    .Resume .Resume-item{
+        margin-top: 50px;
+        
+    }
+    .Resume .Resume-item-1{
+        width: 48%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .Resume .Resume-item-1 h3, .skill h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .Resume .Resume-item-1 .Resume-content{
+     border: 1px solid #ccc;
+     padding-left:20px ;
+     padding-top: 20px;
+    }
+     .Resume .Resume-item-1 .Resume-content h5{
+color:#dc3545;
+        font-size:15px;
+     }
+     .Resume .Resume-item-1 .Resume-content h4{
+        font-size:1.1rem
+     }
+     .Resume .Resume-item-1 .Resume-content span{
+        background-color: #20c997;
+        color: #fff;
+        padding: 0px 5px;
+        border-radius: 3px;
+     }
+     .skill{
+
+width: 80%;
+margin: auto;
+
+     } 
+     .skill .skill-item{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+     }
+     .skill .skill-item-1 {
+   width: 48%;
+     }
+     .skill .skill-item-1 div{
+        width: 100%;
+        height: 10px;
+        background-color: #ccc;
+        border-radius: 5px;
+     }
+     .skill .skill-item-1 div div{
+    width: 65%;
+    height: 100%;
+    background-color: #20c997;
+     }
+     .skill .skill-item-1 span{
+      padding-left: 70%;
+    
+     }
+     .skill button{
+    
+     
+        color: #6c757d;
+        border:1px solid #6c757d;
+        box-shadow: none;
+        background-color: transparent;
+
+     }
+     .skill button:hover{
+   background-color: #6c757d;
+   color: #fff;
+     }
+
+     .PORTFOLIO{
+        padding-bottom: 5%;
+     }
+     .PORTFOLIO-item {
+      
+        flex-wrap: wrap;
+        align-content: space-between;
+       
+     }
+     .PORTFOLIO-item  div{
+        width: 32%;
+       
+     }
+     .PORTFOLIO-item  div img{
+        width: 100%;
+     }
+     .PORTFOLIO-item .img-1,  .PORTFOLIO-item .img-3 {
+        height: 20%;
+     }
+     .PORTFOLIO-item .img-4 {
+        margin-top: -30%;
+       
+     }
+
+     .PORTFOLIO-item .img-5{
+        margin-top: -30%;
+        margin-left: 30%;
+     }
+     .PORTFOLIO-item .img-6{
+    margin-left: 68%;
+    margin-top: -24%;
+
+
+     }
+     .PORTFOLIO-item .img-7{
+        margin-left: 34%;
+        margin-top: -24%;
+     }
+     .nav-PORTFOLIO{
+        margin-top: 5%;
+     }
+     .nav-PORTFOLIO ul{
+        width: 22%;
+        margin: auto;
+     }
+     .nav-PORTFOLIO ul li a {
+    color: #555;
+    text-decoration: none;
+     }
+     .nav-PORTFOLIO ul li .all{
+    color: #20c997;
+
+padding: 0px 7px;
+    border-bottom: 2px solid #20c997;
+     }
+     .nav-PORTFOLIO ul li a:hover{
+        color: #20c997;
+     }
+   .clint-item{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    text-align: left;
+
+   }
+   .clint-item-1{
+    padding:5% ;
+ width: 49%;
+  background-color: #f8f9fa;
+  border-radius: 3px;
+   }
+    
+   .clint-item-1 .img{
+    display: flex;
+    justify-content: space-between;
+   }
+   .clint-item-1 .img img{
+    border-radius: 50%;
+   }
+   .clint-item-1 .img div{
+    width: 80%;
+   }
+   .clint-item-1 .img div p{
+    font-weight: 600;
+   }
+   .clint-item-1 .img div span{
+    font-weight: 600;
+    color: #6c757d;
+   }
+   .clint-item-1 .content p{
+    font-size: 18px;
+    font-weight: 500;
+   }
+   .clint-item-1 .content i{
+    color: #ffc107;
+   }
+   .contact{
+    padding-bottom: 30px;
+    margin-bottom: 0;
+   }
+   .contact .contact-item{
+    margin-top: 15%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+   }
+   .contact .contact-item-2{
+  width: 70%;
+   }
+   
+   .contact .contact-item-1{
+    width: 20%;
+     }
+     .contact h3{
+        font-size: 22px;
+     }
+     .contact p{
+        font-size: 16px;
+        color: #252b33;
+     }
+     .contact .contact-item-1 div{
+        margin-bottom: 20%;
+     }
+     .contact .contact-item-1 div p i{
+        color: #20c997;
+        padding-right: 10px;
+     }
+     .contact .contact-item-2 .input{
+
+        width: 100%;
+        margin-bottom: 5%;
+    
+     }
+     
+     .contact .contact-item-2 .input input, .contact .contact-item-2  textarea{
+        width: 48%;
+        margin-right: 10px;
+       padding: 15px 10px;
+       font-size: 18px;
+       border: 1px solid #ccc;
+       border-radius: 3px;
+       color: #ccc;
+     }
+     .contact .contact-item-2  textarea{
+        width: 98%;
+        height: 40%;
+     }
+     .contact .contact-item-2  button{
+        
+    margin-top: 20px ;
+    transform: translate(-50%);
+    margin-left: 50%;
+    padding: 15px 0px;
+     width: 190px;
+     border-radius: 95px;
+     background-color:#20c997;
+   border: none;
+     color:#fff;
+     font-size: 18px;
+
+     box-shadow:0px 0px 10px#888888;
+   }
+       
+   .contact .contact-item-2  button:hover{
+    background-color: #189e76;
+   }
+  .footer{
+    padding: 4% 0px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer p{
+    width: 40%;
+  
+  }
+  .footer .right{
+    text-align: right;
+  }
+  .footer p span{
+    color: #20c997;
+ 
+  }
+  .footer p a{
+    text-decoration: none;
+    padding: 10px;
+    color: #6c757d;
+  }
+  .footer p a:hover{
+    color: #20c997;
+   
+  }
